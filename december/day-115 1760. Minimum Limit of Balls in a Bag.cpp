@@ -1,7 +1,7 @@
 class Solution {
  public:
   int minimumSize(vector<int>& nums, int maxOperations) {
-    int l = 1;
+    int l = 1; 
     int r = ranges::max(nums);
 
     while (l < r) {
